@@ -1,3 +1,22 @@
-img {
-	width: 480px;
+
+[ash-full] {
+	width: 960px;
+	margin: 0 auto;
 }
+
+[ash-column] {
+	float: left;
+	margin: 0 15px;
+}
+[ash-column~="1"] {width: 50px;}
+[ash-column~="2"] {width: 130px;}
+[ash-column~="3"] {width: 210px;}
+[ash-column~="4"] {width: 290px;}
+[ash-column~="5"] {width: 370px;}
+[ash-column~="6"] {width: 450px;}
+[ash-column~="7"] {width: 530px;}
+[ash-column~="8"] {width: 610px;}
+[ash-column~="9"] {width: 690px;}
+[ash-column~="10"] {width: 770px;}
+[ash-column~="11"] {width: 850px;}
+[ash-column~="12"] {width: 930px;}
