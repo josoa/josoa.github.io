@@ -8,19 +8,45 @@
 	float: left;
 	margin: 0 15px;
 }
-[ash-column~="1"] {width: 50px;}
-[ash-column~="2"] {width: 130px;}
-[ash-column~="3"] {width: 210px;}
-[ash-column~="4"] {width: 290px;}
-[ash-column~="5"] {width: 370px;}
-[ash-column~="6"] {width: 450px;}
-[ash-column~="7"] {width: 530px;}
-[ash-column~="8"] {width: 610px;}
-[ash-column~="9"] {width: 690px;}
-[ash-column~="10"] {width: 770px;}
-[ash-column~="11"] {width: 850px;}
-[ash-column~="12"] {width: 930px;}
+[ash-col~="1"] {width: 50px;}
+[ash-col~="2"] {width: 130px;}
+[ash-col~="3"] {width: 210px;}
+[ash-col~="4"] {width: 290px;}
+[ash-col~="5"] {width: 370px;}
+[ash-col~="6"] {width: 450px;}
+[ash-col~="7"] {width: 530px;}
+[ash-col~="8"] {width: 610px;}
+[ash-col~="9"] {width: 690px;}
+[ash-col~="10"] {width: 770px;}
+[ash-col~="11"] {width: 850px;}
+[ash-col~="12"] {width: 930px;}
 
 [ash-banner] {
-	
+	margin: 0;
+	padding-bottom: 25px;
+	background-color: #D1D9C1;
+
 }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	background-color: #77BDB1;
+	color: #262626;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+4D748C
+D1D9C1
+FFF2D3
+77BDB1
+FF888A
