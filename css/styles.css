@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 
-[ash-column] {
+[ash-col] {
 	float: left;
 	margin: 0 15px;
 }
@@ -23,9 +23,8 @@
 
 [ash-banner] {
 	margin: 0;
-	padding-bottom: 25px;
+	padding: 25px 0;
 	background-color: #D1D9C1;
-
 }
 
 body {
@@ -43,6 +42,12 @@ h1 {
 h2 {
 	font-size: 1.5em;
 	font-weight: 400;
+	color: #77BDB1;
+}
+
+a {
+	margin: 0 15px;
+	color: #FF888A;
 }
 
 4D748C
