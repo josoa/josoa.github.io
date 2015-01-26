@@ -55,6 +55,52 @@ body {
 	font-size: 1em;
 }
 
+h1 {
+	font-size: 3.2em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.7em;
+	margin: 0;
+}
+
+h4 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+h5 {
+	font-size: .7em;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* DRY margins? */
+
+
+
+
 
 /**************************
 		HEAD
@@ -65,12 +111,15 @@ body {
 		NAV BAR
 **************************/
 
+nav {
+	
+}
 
 /**************************
 		ABOUT
 **************************/
 
-[ash] article {
+ [ash] {
 	max-width: 1000px;
 	margin: 0 auto;
 	background: teal;
@@ -79,7 +128,6 @@ body {
 section [ash-bio] {
 	width: 500px;
 	float: left;
-	background: red;
 }
 
 4D748C
