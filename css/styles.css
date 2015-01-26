@@ -39,13 +39,18 @@
 [ash-col~="11"] {width: 88.541667%;}
 [ash-col~="12"] {width: 96.875%;}
 
+/**************************
+		GLOBALS
+**************************/
+
 
 /**************************
 		TYPOGRAPHY
 **************************/
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 	font-weight: 300;
 	font-size: 1em;
 }
@@ -62,10 +67,20 @@ body {
 
 
 /**************************
-		MAIN
+		ABOUT
 **************************/
 
+[ash] article {
+	max-width: 1000px;
+	margin: 0 auto;
+	background: teal;
+}
 
+section [ash-bio] {
+	width: 500px;
+	float: left;
+	background: red;
+}
 
 4D748C
 D1D9C1
