@@ -43,6 +43,12 @@
 		GLOBALS
 **************************/
 
+[ash-clear]:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
 
 /**************************
 		TYPOGRAPHY
@@ -90,6 +96,7 @@ a {
 
 ul {
 	margin: 0;
+	/*padding: 0;*/
 }
 
 li {
@@ -111,23 +118,36 @@ li {
 		NAV BAR
 **************************/
 
-nav {
-	
+[ash-nav] {
+	padding: 0;
+}
+
+[ash-nav-item] {
+	float: left;
+	padding-right: 10px;
 }
 
 /**************************
 		ABOUT
 **************************/
 
- [ash] {
+ [ash] article {
 	max-width: 1000px;
 	margin: 0 auto;
 	background: teal;
+	float: left;
 }
 
-section [ash-bio] {
-	width: 500px;
+ [ash-bio] {
+	/*width: 33%;*/
 	float: left;
+	background: red;
+}
+
+[ash-resume] {
+	float: left;
+	background: yellow;
+	/*width: 400px;*/
 }
 
 4D748C
