@@ -55,39 +55,38 @@
 **************************/
 
 body {
-	font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
-	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 }
 
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+}
+
 h1 {
 	font-size: 3.2em;
-	margin: 0;
+
 }
 
 h2 {
 	font-size: 2em;
-	margin: 0;
 }
 
 h3 {
 	font-size: 1.7em;
-	margin: 0;
 }
 
 h4 {
 	font-size: 1.2em;
-	margin: 0;
 }
 
 h5 {
 	font-size: .7em;
-	margin: 0;
 }
 
 p {
-	margin: 0;
 }
 
 a {
@@ -95,15 +94,12 @@ a {
 }
 
 ul {
-	margin: 0;
-	/*padding: 0;*/
 }
 
 li {
 	list-style: none;
 }
 
-/* DRY margins? */
 
 
 
@@ -150,8 +146,9 @@ li {
 	/*width: 400px;*/
 }
 
-4D748C
-D1D9C1
-FFF2D3
-77BDB1
-FF888A
+4D748C blue
+D1D9C1 green
+FFF2D3 yellow
+77BDB1 teal
+FF888A pink
+2d2d2d grey
