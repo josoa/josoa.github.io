@@ -47,7 +47,7 @@
 	display: table;
 	clear: both;
 	content: "";
-}
+} 
 
 
 /**************************
@@ -113,20 +113,24 @@ li {
 /**************************
 		NAV BAR
 **************************/
-
+/*
 [ash-nav] {
 	padding: 0;
 }
 
 [ash-nav-item] {
 	float: left;
-	padding-right: 10px;
+	padding-right: 20px;
 }
 
-/**************************
+[ash-nav-item~="contact"]:first-of-type {
+	padding-left: 100px;
+}
+*/
+/*************************
 		ABOUT
-**************************/
-
+*************************/
+/*
  [ash] article {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -135,7 +139,6 @@ li {
 }
 
  [ash-bio] {
-	/*width: 33%;*/
 	float: left;
 	background: red;
 }
@@ -143,7 +146,20 @@ li {
 [ash-resume] {
 	float: left;
 	background: yellow;
-	/*width: 400px;*/
+} 
+*/
+article {
+	background: red;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header {
+	width: 1000px;
+}
+
+footer {
+	float: left;
 }
 
 4D748C blue
