@@ -2,106 +2,14 @@
 		COLUMNS
 **************************/
 
-[ash] {
-	max-width: 960px;
-	margin: 0 auto;
-}
-
-[ash-col] {
-	float: left;
-	margin: 0 1.5626%;
-}
-
-/*[ash-col~="1"] {width: 50px;}
-[ash-col~="2"] {width: 130px;}
-[ash-col~="3"] {width: 210px;}
-[ash-col~="4"] {width: 290px;}
-[ash-col~="5"] {width: 370px;}
-[ash-col~="6"] {width: 450px;}
-[ash-col~="7"] {width: 530px;}
-[ash-col~="8"] {width: 610px;}
-[ash-col~="9"] {width: 690px;}
-[ash-col~="10"] {width: 770px;}
-[ash-col~="11"] {width: 850px;}
-[ash-col~="12"] {width: 930px;}
-*/
-
-[ash-col~="1"] {width: 5.208333%;}
-[ash-col~="2"] {width: 13.541667%;}
-[ash-col~="3"] {width: 21.875%;}
-[ash-col~="4"] {width: 30.208333%;}
-[ash-col~="5"] {width: 38.541667%;}
-[ash-col~="6"] {width: 46.875%;}
-[ash-col~="7"] {width: 55.208333%;}
-[ash-col~="8"] {width: 63.541667%;}
-[ash-col~="9"] {width: 71.875%;}
-[ash-col~="10"] {width: 80.208333%;}
-[ash-col~="11"] {width: 88.541667%;}
-[ash-col~="12"] {width: 96.875%;}
 
 /**************************
 		GLOBALS
 **************************/
 
-[ash-clear]:after {
-	display: table;
-	clear: both;
-	content: "";
-} 
-
-
 /**************************
 		TYPOGRAPHY
 **************************/
-
-body {
-	/*font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;*/
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-}
-
-h1, h2, h3, h4, h5, h6, p, ul {
-	margin: 0;
-}
-
-h1 {
-	font-size: 3.2em;
-
-}
-
-h2 {
-	font-size: 2em;
-}
-
-h3 {
-	font-size: 1.7em;
-}
-
-h4 {
-	font-size: 1.2em;
-}
-
-h5 {
-	font-size: .7em;
-}
-
-p {
-}
-
-a {
-	text-decoration: none;
-}
-
-ul {
-}
-
-li {
-	list-style: none;
-}
-
-
-
 
 
 
@@ -113,58 +21,7 @@ li {
 /**************************
 		NAV BAR
 **************************/
-/*
-[ash-nav] {
-	padding: 0;
-}
 
-[ash-nav-item] {
-	float: left;
-	padding-right: 20px;
-}
-
-[ash-nav-item~="contact"]:first-of-type {
-	padding-left: 100px;
-}
-*/
 /*************************
 		ABOUT
 *************************/
-/*
- [ash] article {
-	max-width: 1000px;
-	margin: 0 auto;
-	background: teal;
-	float: left;
-}
-
- [ash-bio] {
-	float: left;
-	background: red;
-}
-
-[ash-resume] {
-	float: left;
-	background: yellow;
-} 
-*/
-article {
-	background: red;
-	margin: 0 auto;
-	width: 1000px;
-}
-
-header {
-	width: 1000px;
-}
-
-footer {
-	float: left;
-}
-
-4D748C blue
-D1D9C1 green
-FFF2D3 yellow
-77BDB1 teal
-FF888A pink
-2d2d2d grey
