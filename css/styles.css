@@ -2,26 +2,80 @@
 		COLUMNS
 **************************/
 
-
 /**************************
 		GLOBALS
 **************************/
+
+[_clearfix]:after {
+	display: table;
+	clear: both;
+	content: "";
+}
+
+body {
+	max-width: 960px;
+	margin: 25px auto;
+}
+
+[_col] {
+	margin: 0 15px 0 0;
+	float: left;
+}
+
+[_col~="1"] {
+	width: 290px;
+	background: teal;
+}
+
+[_col~="2"] {
+	width: 580px;
+	margin-bottom: 45px;
+	background: red;
+}
 
 /**************************
 		TYPOGRAPHY
 **************************/
 
+a:link, a:visited {
+	text-decoration: none;
+	color: #2d2d2d; 
+}
 
 
 /**************************
-		HEAD
+		HEADER
 **************************/
+header {
+	margin: 0 0 45px;
+}
 
+[_logo] {
+	float: left;
+	width: 166px;
+}
 
 /**************************
-		NAV BAR
+		NAVIGATION
 **************************/
+
+[_nav] {
+	float: right;
+	margin: 90px 0 0;
+	padding: 0;
+}
+
+[_nav-item] {
+	list-style: none;
+	float: left;
+	padding-right: 25px;
+}
 
 /*************************
 		ABOUT
 *************************/
+
+[_content] {
+	padding: 0 0 45px;}
+
+
