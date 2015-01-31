@@ -2,6 +2,20 @@
 		COLUMNS
 **************************/
 
+[_col] {
+	margin: 0 25px;
+	float: left;
+}
+
+[_col~="1"] {
+	width: 25%;
+}
+
+[_col~="2"] {
+	width: 50%;	
+}
+
+
 /**************************
 		GLOBALS
 **************************/
@@ -16,19 +30,6 @@ body {
 	display: table;
 	clear: both;
 	content: "";
-}
-
-[_col] {
-	margin: 0 25px;
-	float: left;
-}
-
-[_col~="1"] {
-	width: 25%;
-}
-
-[_col~="2"] {
-	width: 50%;	
 }
 
 /**************************
