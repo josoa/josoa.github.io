@@ -9,58 +9,55 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
-<body ash>
+<body>
+	<header>
+		<img _logo src="img/logo.svg" alt="Hello, my name is Ashley.">
+ 		<nav _clearfix>
+			<ul _nav>
+				<li _nav-item><a href="index.html">Home</a></li>
+				<li _nav-item><a href="bio.html">Bio</a></li>
+				<li _nav-item><a href="style-tile.html">Style Tile</a></li>
+				<li _nav-item><a href="mailto:ashleyjhaveri@gmail.com">Email</a></li>
+				<li _nav-item><a href="https://github.com/josoa" target="blank">GitHub</a></li>
+				<li _nav-item><a href="https://www.behance.net/ashleyjhaveri" target="blank">Behance</a></li>
+			</ul>
+			<!-- I want to use the sub-nav for the responsive design so it's not as difficult to see what is on this page and it is easy to get to
+			 <ul _nav="sub">
+				<li ash-nav-page><a href="#about">Why?</a></li>
+				<li ash-nav-page><a href="#education">Education</a></li>
+				<li ash-nav-page><a href="#experience">Experience</a></li>
+				<li ash-nav-page><a href="#travel">Travel</a></li>
+			</ul> -->
+		</nav>
+	</header>	
 
-	<nav ash-clear>
-		<ul ash-nav>
-			<li ash-nav-item="page"><a href="index.html">Home</a></li>
-			<li ash-nav-item="page"><a href="bio.html">Bio</a></li>
-			<li ash-nav-item="page"><a href="style-tile.html">Style Tile</a></li>
-			<!-- <li ash-nav-item="page"><a href="blog.html">Blog</a></li> -->
-			<li ash-nav-item="contact"><a href="mailto:ashleyjhaveri@gmail.com">Email</a></li>
-			<li ash-nav-item="contact"><a href="https://github.com/josoa">GitHub</a></li>
-			<li ash-nav-item="contact"><a href="https://www.behance.net/ashleyjhaveri">Behance</a></li>
-		</ul>
-	</nav>
-
-	<div>
-		<h1>Hello, my name is Ashley<h1>
-		<h2>I like to make beautiful &amp; functional stuff</h2>
-	</div>
-
-
-	<article>
-		<section ash-bio ash-col="4">
-			<div>
-				<h3>Why?</h3>
-				<p>Clear &amp; honest communication is the key to lasting relationships.</p>
-				<p>Lasting relationships are the key to a successful business.</p>
-				<p>I want your business to be a smashing success, so I want your communication to be exquisite.</p>
-				<p>It all starts with your <a href="blog.html">first impression</a>.</p>
+	<article _clearfix>
+			<div _content _clearfix>
+				<h1 _col="1">About</h1>
+				<p _col="2">I like to make stuff that looks great and serves a purpose. I like to solve problems. I like to think I'm good at these things and that I can do them for you.</p>
 			</div>
-		</section>	
 		
-		<section ash-resume ash-col="8">	
-			<div>
-				<h4>Education</h4>
-				<ul>
+			<div _content _clearfix>
+				<h1 _col="1">Education</h1>
+				<ul _col="2">
 					<li>Eastern Washington University // 2013-present // BFA in Visual Communication Design</li>
 					<li>Clark College // 2010-2011 // AA</li>
 					<li>Observation, life's greatest teacher // 1993-present</li>
 				</ul>
 			</div>	
 
-			<div>
-				<h4>Experience</h4>
-				<ul>
+			<div _content _clearfix>
+				<h1 _col="1">Experience</h1>
+				<ul _col="2">
 					<li>Sour Cream // Web and Graphic Design // 2015-present</li>
 					<li>Freelance // Graphic Design // 2012-2014</li>
 				</ul>
 			</div>
 
-			<div>	
-				<h4>Travel</h4>
-				<h5>I've gained a better understanding of people from these places</h5>
+			<div _content _clearfix>	
+				<h1 _col="1">Travel</h1>
+				<section _col="2">
+				<p>I extended my understanding of humankind by spending time in these places:</p>
 				<ul>
 					<li>St. Louis, MO</li>
 					<li>Dallas, TX</li>
@@ -69,9 +66,12 @@
 					<li>Pichilemu, Chile</li>
 					<li>Spokane, WA</li>
 				</ul>
+			</section>
 			</div>
-		</section>
 	</article>
+
+	<footer>
+	</footer>
 
 </body>
 </html>
