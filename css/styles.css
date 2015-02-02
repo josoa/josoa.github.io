@@ -42,6 +42,20 @@ body {
 	color: #3D3E45;
 }
 
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+	color: #2d2d2d;
+}
+
+[_content] h1 {
+	text-align: right;
+}
+
+p {
+	margin: 0;
+}
+
 a {
 	text-decoration: none;
 }
@@ -69,19 +83,6 @@ ul {
 	line-height: 1.625em;
 }
 
-h1 {
-	font-size: 2em;
-	font-weight: 700;
-	color: #2d2d2d;
-}
-
-[_content] h1 {
-	text-align: right;
-}
-
-p {
-	margin: 0;
-}
 
 /**************************
 		HEADER
@@ -113,13 +114,49 @@ header {
 
 /*************************
 		ABOUT
+
+
 *************************/
 
 [_content] {
 	padding: 15px 35px 35px;
-	/*background: #ddd;*/
 	margin: 0 auto;
 	border-top: solid 1px #999;
 }
+
+/*************************
+ Layout for Style Tile
+ Feel free to change 
+**************************/
+section {
+	margin: 20px 0;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+/* Set Your Own Typography */
+
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+	margin: 0;
+}
+
+/* Clearfix - Oo Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
 
