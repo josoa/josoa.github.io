@@ -38,18 +38,39 @@ body {
 
 body {
 	font-size: 1em;
+	line-height: 1.5625em;
 	font-weight: 100;
 	color: #3D3E45;
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.125em; /* 34px */
+	line-height: 2.875em; /* 46px */
 	font-weight: 700;
 	color: #2d2d2d;
 }
 
+h2 {
+	font-size: 1.625em; /* 26px */
+	line-height: 2.25em; /* 36px */
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.3125em; /* 21px */
+	line-height: 1.875em; /* 30px */
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 1em;
+	line-height: 1.5625em;
+	font-weight: 400;
+}
+
 [_content] h1 {
 	text-align: right;
+	line-height: 1em;
 }
 
 p {
@@ -75,12 +96,9 @@ ul {
 }
 
 [_content] li {
+	line-height: 1.5625em;
 	list-style: none;
 	margin-bottom: 15px;
-}
-
-[_content] li, p {
-	line-height: 1.625em;
 }
 
 
@@ -124,13 +142,6 @@ header {
 	border-top: solid 1px #999;
 }
 
-/*************************
- Layout for Style Tile
- Feel free to change 
-**************************/
-section {
-	margin: 20px 0;
-}
 
 .color-1,
 .color-2,
