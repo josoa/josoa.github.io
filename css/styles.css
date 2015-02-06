@@ -61,19 +61,19 @@ h1 {
 
 h2 {
 	font-size: 1.625em; /* 26px */
-	/*line-height: 2.25em; /* 36px */*/
+	/*line-height: 2.25em; /* 36px */
 	font-weight: 700;
 }
 
 h3 {
 	font-size: 1.625em; /* 26px */
-	/*line-height: 1.875em; /* 30px */*/
-	font-weight: 300;
+	/*line-height: 1.875em; /* 30px */
+	font-weight: 400;
 }
 
 h4 {
 	font-size: 1.3125em; /* 21px */
-	/*line-height: 1.5625em; /* 25px */*/
+	/*line-height: 1.5625em; /* 25px */
 	font-weight: 300;
 }
 
@@ -85,7 +85,7 @@ em {
 	/*color: #BCC7B0;*/
 }
 
-a:link {
+a:link, a:visited {
 	text-decoration: none;
 	color: #509DA5;
 }
@@ -95,7 +95,7 @@ a:hover, a:active {
 }
 
 a:active {
-	font-weight: 300;
+	font-weight: 700;
 }
 
 li {
